@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap'); /* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos personalizados */
+.glass-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.font-love {
+  font-family: 'Great Vibes', cursive;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.heart-pulse {
+  width: 80px;
+  height: 80px;
+  background: #ff4081;
+  position: relative;
+  transform: rotate(45deg);
+  animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  box-shadow: 0 5px 15px rgba(255, 64, 129, 0.5);
+}
+
+.heart-pulse::before,
+.heart-pulse::after {
+  content: '';
+  width: 80px;
+  height: 80px;
+  background: #ff4081;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.heart-pulse::before {
+  left: 0;
+  top: -40px;
+}
+
+.heart-pulse::after {
+  left: -40px;
+  top: 0;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1) rotate(45deg); }
+  50% { transform: scale(1.2) rotate(45deg); }
+  100% { transform: scale(1) rotate(45deg); }
+}
+
+
+/* Animación de brillo */
+.glow {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    filter: drop-shadow(0 0 5px rgba(255, 64, 129, 0.5));
+  }
+  to {
+    filter: drop-shadow(0 0 20px rgba(255, 64, 129, 0.9));
+  }
+}
+
+
+/* Botón con forma de corazón */
+.heart-button {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff4081; /* Color del corazón */
+  animation: heartbeat 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Crear los dos arcos del corazón */
+.heart-button::before,
+.heart-button::after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 100px;
+  background: currentColor;
+  border-radius: 60px 60px 0 0;
+  transform-origin: bottom;
+}
+
+.heart-button::before {
+  right: 0;
+  transform: rotate(-45deg);
+}
+
+.heart-button::after {
+  left: 0;
+  transform: rotate(45deg);
+}
+
+/* Efecto de brillo al pasar el mouse */
+.heart-button:hover::before,
+.heart-button:hover::after {
+  filter: drop-shadow(0 0 12px rgba(255, 64, 129, 0.7));
+}
+
+/* Texto dentro del botón */
+.button-text {
+  position: relative;
+  z-index: 1;
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  animation: text-float 3s ease-in-out infinite;
+
+}
+
+/* Animación de flotación para el texto */
+@keyframes text-float {
+  0%, 100% { transform: translateY(-5px); }
+  50% { transform: translateY(3px); }
+}
+
+/* Animación de latido */
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+
+
+   .heart-pulse2 {
+     width: 40px;
+     height: 40px;
+     background: #ff4081;
+     position: relative;
+     transform: rotate(45deg);
+     animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+     box-shadow: 0 5px 15px rgba(255, 64, 129, 0.5);
+   }
+
+.heart-pulse2::before,
+.heart-pulse2::after {
+  content: '';
+  width: 40px;
+  height: 40px;
+  background: #ff4081;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.heart-pulse2::before {
+  left: 0;
+  top: -20px;
+}
+
+.heart-pulse2::after {
+  left: -20px;
+  top: 0;
+}
