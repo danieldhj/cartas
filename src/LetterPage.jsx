@@ -45,7 +45,7 @@ const letterContents = {
         "nuestra historia juntos. Desde que llegaste a mi vida, llenaste cada rincón de mi alma " +
         "con luz, amor y la certeza de que Dios tenía preparado algo hermoso para nosotros.",
 
-        "Todo comenzó en marzo de 2023, cuando, con el corazón lleno de ilusión, te escribí por Messenger. " +
+        "Todo comenzó en marzo de 2024, cuando, con el corazón lleno de ilusión, te escribí por Messenger. " +
         "Para ser sincero, al principio sentí que ni siquiera recordabas mi existencia, " +
         "y noté que estabas un poco reacia a abrirme tu corazón. Pero, aun así, Dios tenía otros planes. " +
         "Poco a poco, con cada conversación, con cada mensaje, algo comenzó a florecer entre nosotros. " +
