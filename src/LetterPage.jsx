@@ -27,7 +27,7 @@ const letterContents = {
         "Eres mi razón para soñar y mi lugar seguro en este mundo caótico. " +
         "Gracias por pintar mis días de colores que no sabía que existían y por enseñarme que el amor verdadero no solo se siente, " +
         "sino que se vive en cada mirada, en cada abrazo y en cada instante juntos. Contigo, " +
-        "todo tiene sentido, y mi corazón late con la certeza de que tú eres y siempre serás el mejor ragalo que Dios me dio...",
+        "todo tiene sentido, y mi corazón late con la certeza de que tú eres y siempre serás el mejor regalo que Dios me dio...",
 
         "Eres mi regalo perfecto, mi reflejo del versículo de Proverbios 18:22: " +
         "\"El que halla esposa halla el bien y alcanza el favor del Señor\"." +
